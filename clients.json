@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Luka",
+        "surname": "Londaridze",
+        "balance": 45500,
+        "pin": 4321
+    },
+    {
+        "name": "Nini",
+        "surname": "Abuladze",
+        "balance": 24000,
+        "pin": 5678
+    },
+    {
+        "name": "Ambartsum",
+        "surname": "Karapetyan",
+        "balance": 450,
+        "pin": 1234
+    },
+   {
+        "name": "Beqa",
+        "surname": "Shikhashvili",
+        "balance": 3000,
+        "pin": 2468
+    }
+]
