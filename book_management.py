@@ -14,12 +14,15 @@ class BookManager:
 
     def add_book(self, book):
         self.books.append(book)
-        self.dictionary[book.title] = book
+        self.dictionary[book.title.lower()] = book
 
     def get_book(self, title):
-        return self.dictionary.get(title)
+        book = self.dictionary.get(title.lower())
+        if(book is None): return "there is no such book"
+        return book
 
     def get_books(self):
+        if(len(self.books) == 0): return "there are no books"
         books = ""
         for book in self.books:
             books += str(book)
@@ -37,7 +40,10 @@ def main():
             4. exit 
 tipe action number: """)
         if action == "1":
-            name = input("Enter book name: ")
+            while True:
+                name = input("Enter book name: ")
+                if(name == ""): print("Book name cannot be empty")
+                else: break
             author = input("Enter book author: ")
             while True:
                 try:
