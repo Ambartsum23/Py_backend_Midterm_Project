@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Ambartsum",
+        "surname": "Karapetyan",
+        "roll_number": 1,
+        "score": 95.0,
+        "grade": "A"
+    },
+    {
+        "name": "Nini",
+        "surname": "Abuladze",
+        "roll_number": 2,
+        "score": 100.0,
+        "grade": "A"
+    },
+    {
+        "name": "Beka",
+        "surname": "Shikhashvili",
+        "roll_number": 3,
+        "score": 100.0,
+        "grade": "A"
+    }
+]
